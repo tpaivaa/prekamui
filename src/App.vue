@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Routes msg="Welcome to Kamailio routes"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Routes from './components/Routes.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Routes
   }
 }
 </script>
